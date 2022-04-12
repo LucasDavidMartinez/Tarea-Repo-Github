@@ -20,10 +20,16 @@ header {
     margin: 0.5rem;
 }
 
+.linksnavcontainer{
+    margin: 2rem;
+}
+
 .linksnav{
     display: flex;
 }
 
-
+.linksnav li{
+    padding: 0 .5rem 0 .5rem;
+}
 
 
