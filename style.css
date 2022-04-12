@@ -29,7 +29,42 @@ header {
 }
 
 .linksnav li{
-    padding: 0 .5rem 0 .5rem;
+    padding: 0 1rem 0 1rem;
 }
+
+.linksnav li a{
+    font-size: large;
+    color: whitesmoke;
+}
+
+.linksnav li a:hover{
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
