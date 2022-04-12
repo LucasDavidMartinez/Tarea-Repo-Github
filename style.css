@@ -20,7 +20,9 @@ header {
     margin: 0.5rem;
 }
 
-
+.linksnav{
+    display: flex;
+}
 
 
 
