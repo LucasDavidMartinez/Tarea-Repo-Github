@@ -1,3 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: black;
+}
+
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logocontainer  .logolink, .logoimg{
+    width: 70px;
+    margin: 0.5rem;
+}
+
+.linksnavcontainer{
+    margin: 2rem;
+}
+
+.linksnav{
+    display: flex;
+}
+
+.linksnav li{
+    padding: 0 1rem 0 1rem;
+}
+
+.linksnav li a{
+    font-size: large;
+    color: whitesmoke;
+}
+
+.linksnav li a:hover{
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
