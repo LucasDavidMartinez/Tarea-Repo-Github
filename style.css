@@ -51,10 +51,12 @@ header {
 .rickroll{
     height: 500px;
     width: 500px;
+    transition: all 3s;
 }
 
 .entrenamiento, .rickroll{
     position: absolute;
+    margin: 100px;
 }
 
 
