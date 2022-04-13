@@ -53,7 +53,9 @@ header {
     width: 500px;
 }
 
-
+.entrenamiento, .rickroll{
+    position: absolute;
+}
 
 
 
