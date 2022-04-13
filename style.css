@@ -43,9 +43,15 @@ header {
     transition: all 1s;
 }
 
+.entrenamiento{
+    height: 500px;
+    width: 800px;
+}
 
-
-
+.rickroll{
+    height: 500px;
+    width: 500px;
+}
 
 
 
