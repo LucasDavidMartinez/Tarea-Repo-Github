@@ -46,20 +46,25 @@ header {
 .entrenamiento{
     height: 500px;
     width: 800px;
+    transition: all 3s;
+    z-index: 1;
 }
 
 .rickroll{
     height: 500px;
     width: 500px;
-    transition: all 3s;
+    z-index: 0;
 }
 
-.entrenamiento, .rickroll{
+.rickroll, .entrenamiento{
     position: absolute;
     margin: 100px;
 }
 
-
+.entrenamiento:hover{
+    transform: translate(50px, 50px);
+    opacity: 0.1;
+}
 
 
 
