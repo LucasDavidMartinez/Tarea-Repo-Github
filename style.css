@@ -43,15 +43,34 @@ header {
     transition: all 1s;
 }
 
+.entrenamiento{
+    height: 500px;
+    width: 800px;
+    transition: all 3s;
+    z-index: 1;
+}
 
+.rickroll{
+    height: 500px;
+    width: 500px;
+    z-index: 0;
+}
 
+.rickroll, .entrenamiento{
+    position: absolute;
+    margin: 100px;
+}
 
+.entrenamiento:hover{
+    transform: translate(50px, 50px);
+    opacity: 0.01;
+}
 
-
-
-
-
-
+.textoimagen{
+    font-size: 50px;
+    margin: 5rem;
+    text-decoration: underline;
+}
 
 
 
